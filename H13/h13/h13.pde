@@ -191,7 +191,7 @@ void check()
     fill(0,0,0);
     text(random,400,200);
   
-    fill(0,0,0);
-    text(result,215,400);
+    fill(0,0,200);
+    text(result,235,400);
    }
 }
