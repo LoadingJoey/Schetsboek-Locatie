@@ -1,13 +1,13 @@
-boolean defeatBoss = true;
-boolean collectAll = true;
-boolean CreditsDisplayed = true;
-boolean finish = false;
+boolean finish = true;
+boolean ending = true;
+boolean sidequest = true;
+boolean complete = false;
 
-if(defeatBoss == true && collectAll == true && CreditsDisplayed == true)
+if(finish == true && ending == true && sidequest == true)
 {
-  finish = true;
+  complete = true;
 }
-if(finish)
+if(complete)
 {
-  println("you can now play as Luigi!");
+  println("you completed everything");
 }

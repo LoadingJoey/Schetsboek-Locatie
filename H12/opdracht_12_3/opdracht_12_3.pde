@@ -5,7 +5,7 @@ void setup()
 {
 size(500,500);
 background(255,255,255);
-//frameRate(60);
+//frameRate(200);
 
 }
 
@@ -33,6 +33,7 @@ void draw()
       k = k + 12;
     }
   }
+    stroke(i,j,k);
     fill(i,j,k);
     rect(mouseX,mouseY,10,10);
     
